@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rishabh Raj • Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand"><span class="dot"></span> Rishabh Raj</div>
+        <div class="links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+          <button id="themeToggle" class="btn">🌙</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero reveal" id="home">
+      <div>
+        <h1>Web Developer & CS Undergrad</h1>
+        <p>I build clean, responsive web apps with <b>JavaScript</b>, <b>Java</b>, and modern web tech. Hands-on with <b>React</b>, <b>Node</b>, and <b>MySQL</b>.</p>
+        <a class="btn" href="Rishabh_Raj_Resume.pdf" target="_blank">Download Resume</a>
+        <a class="btn" href="#hire">Hire Me</a>
+      </div>
+      <div>
+        <img src="me.jpg" alt="Rishabh Raj">
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="reveal">
+      <h2>About</h2>
+      <div class="item">
+        <p>Hello, I'm <b>Rishabh Raj</b>, a Computer Science student at Dronacharya Group of Institutions (2023–2027). Passionate about building full-stack applications and solving problems using clean code.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="reveal">
+      <h2>Skills</h2>
+      <div class="item"><b>Programming:</b> Java, JavaScript, Python, C </div>
+      <div class="item"><b>Web:</b> HTML, CSS, React.js</div>
+      <div class="item"><b>Database:</b> MySQL</div>
+      <div class="item"><b>Tools:</b> Git, GitHub, VS Code</div>
+      <div class="item"><b>Other:</b> Data Structures & Algorithms, Problem Solving</div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="reveal">
+      <h2>Certifications</h2>
+      <div class="item">Java – One Roadmap (Jul 2025)</div>
+      <div class="item">Operating System Foundation – Infosec (Jul 2025)</div>
+      <div class="item">Digital Skills: Artificial Intelligence – Accenture (May 2025)</div>
+      <div class="item">Software Engineering Job Simulation – Forage (Apr 2025)</div>
+      <div class="item">AI for Beginners – HP (Feb 2025)</div>
+      <div class="item">Career Edge – TCS iON (Jan 2025)</div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <img src="https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?q=80&w=1200&auto=format&fit=crop" alt="TrendNest">
+          <div class="content">
+            <h3>TrendNest – E-Commerce Website</h3>
+            <p>Developed a fashion & apparel e-commerce platform inspired by Myntra with product filters and cart functionality.</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1200&auto=format&fit=crop" alt="HealthSuvidha">
+          <div class="content">
+            <h3>HealthSuvidha – Healthcare Platform</h3>
+            <p>Built a web platform enabling patient registration and online healthcare service booking.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="reveal">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item edu-card">
+          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="edu-content">
+            <h3>B.Tech, Computer Science & Engineering</h3>
+            <p>Dronacharya Group of Institutions, Greater Noida</p>
+            <span class="edu-badge">2023 – 2027</span>
+          </div>
+        </div>
+
+        <div class="timeline-item edu-card">
+          <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+          <div class="edu-content">
+            <h3>Senior Secondary (XII), English</h3>
+            <p>St. Mary’s Inter College, Etawah</p>
+            <span class="edu-badge">2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="reveal">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Web Development Intern • Prodigy Infotech <span style="color:var(--muted);font-size:14px">(Jun 2025)</span></h3>
+          <ul>
+            <li>Built responsive websites using HTML, CSS, JS.</li>
+            <li>Developed UI features like clocks and landing pages.</li>
+            <li>Strengthened DOM manipulation & event handling skills.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hire Me -->
+    <section id="hire" class="reveal">
+      <h2>Hire Me</h2>
+      <form id="hireForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="reveal">
+      <h2>Contact</h2>
+      <p><i class="fa-solid fa-envelope"></i> 14rishabhraj@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> +91 9258461306</p>
+      <p><i class="fa-solid fa-location-dot"></i> Noida, India</p>
+      <div class="socials">
+        <a href="http://linkedin.com/in/rishabh-raj-54424b305" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="14rishabhraj@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Rishabh Raj. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
